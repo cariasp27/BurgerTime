@@ -1,14 +1,16 @@
 body{
-  background-image: url("/assets/img/food.png");
+  background-image: url("/assets/img/blufood.png");
   background-position: center;
 }
+div { border: 5px;}
 img {
   height: 210px;
   width: 275px;
 }
 .jumbotron {
-  height: fit-content;
+ overflow: auto;
 }
+.btn-success { background-color: #ffff13 }
 
 #newburger {
   border-radius: 5px;
@@ -19,8 +21,8 @@ img {
 }
 
 #lefthead {
-  background-color: #5cb85c;
-  color: white;
+  background-color: #ffff13;
+  color:black;
   text-align: center;
   font-size: 1.2em;
 }
@@ -30,8 +32,8 @@ img {
 }
 
 #righthead {
-  background-color: #f0ad4e;
-  color: white;
+  background-color: #ffff13;
+  color:black;
   text-align: center;
   font-size: 1.2em;
 }
